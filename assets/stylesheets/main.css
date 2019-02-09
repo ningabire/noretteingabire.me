@@ -227,7 +227,7 @@ a {
 	letter-spacing: .5px;
   line-height: 44px;
   padding: 40px 0 22px 0;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 }
 .tagline {
   margin: 66px 0 22px 0;
