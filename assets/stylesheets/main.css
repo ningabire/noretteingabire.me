@@ -228,11 +228,18 @@ a {
 }
 .tagline {
   margin: 66px 0 22px 0;
+	text-align: right;
 }
 .primary-nav {
   font-size: 14px;
   font-weight: 400;
+	letter-spacing: .5px;
+	text-transform: uppercase;
 }
+.nav {
+  text-align: right;
+}
+
 .primary-footer {
   color: #648880;
   font-size: 14px;
@@ -246,6 +253,7 @@ a {
 .hero {
   line-height: 44px;
   padding: 22px 80px 66px 80px;
+	text-align: center;
 }
 .hero h2 {
   font-size: 36px;
@@ -255,4 +263,31 @@ a {
 }
 .teaser a:hover h3 {
   color: #a9b2b9;
+}
+
+p {
+  text-align: center;
+}
+
+a {
+  color: #648880;
+  text-decoration: none;
+}
+a:hover {
+  color: #a9b2b9;
+}
+
+/*
+Link underlining
+*/
+
+p a {
+  border-bottom: 1px solid #dfe2e5;
+}
+
+h5 {
+  color: #a9b2b9;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
 }
