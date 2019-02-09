@@ -175,7 +175,7 @@ section {
 */
 body {
   color: #888;
-  font: 300 16px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 h1, h2, h3, h4 {
@@ -223,8 +223,11 @@ a {
   border-top: 4px solid #648880;
   float: left;
   font-size: 48px;
+	font-weight: 100;
+	letter-spacing: .5px;
   line-height: 44px;
   padding: 40px 0 22px 0;
+	text-transform: uppercase;
 }
 .tagline {
   margin: 66px 0 22px 0;
@@ -290,4 +293,9 @@ h5 {
   font-size: 14px;
   font-weight: 400;
   text-transform: uppercase;
+}
+
+.hero p {
+  font-size: 24px;
+  font-weight: 100;
 }
