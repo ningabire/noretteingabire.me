@@ -237,7 +237,7 @@ a {
   font-size: 14px;
   font-weight: 400;
 	letter-spacing: .5px;
-	text-transform: uppercase;
+/*	text-transform: uppercase;*/
 }
 .nav {
   text-align: right;
@@ -292,7 +292,7 @@ h5 {
   color: #a9b2b9;
   font-size: 14px;
   font-weight: 400;
-  text-transform: uppercase;
+/*  text-transform: uppercase;*/
 }
 
 .hero p {
