@@ -73,6 +73,7 @@ table {
 */
 .nav {
   text-align: right;
+	text-decoration: none;
 }
 .primary-nav {
   font-size: 14px;
@@ -85,5 +86,5 @@ table {
   vertical-align: top;
 }
 .nav li:last-child {
-  margin-right: 0;
+  margin-right: 30px;
 }
