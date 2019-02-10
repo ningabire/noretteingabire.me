@@ -7,8 +7,7 @@
 header
 {
 	background-image: linear-gradient()rgba(0, 0, 0, 0.5), url(webimage.png);
-	height: auto;
-/*	height: 100vh;*/
+	height: 100vh;
 	background-size: cover;
 	background-position: center;
 }
