@@ -19,7 +19,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url("dance.jpg");
+  background-image: url('dance.jpg');
   text-align: center;
   color: white;
 }
