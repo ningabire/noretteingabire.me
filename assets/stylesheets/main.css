@@ -77,3 +77,12 @@ body
 	 text-align: center;
 	 margin-top: 275px;
  }
+
+ h2
+ {
+	 color: white;
+	 text-transform: uppercase;
+	 font-size: 70px;
+	 text-align: center;
+	 margin-top: 275px;
+ }
