@@ -6,8 +6,7 @@
 
 header
 {
-	img src=
-	background-image: url(background.jpg);
+	background-image: linear-gradient()rgba(0, 0, 0, 0.5), url(webimage.png);
 	height: auto;
 /*	height: 100vh;*/
 	background-size: cover;
@@ -33,4 +32,32 @@ header
 	padding: 5px 20px;
 	font-family: "Roboto", sans-serif;
 	font-size:15px;
+}
+
+.main-nav li.active a
+{
+	border: 1px solid white;
+}
+
+.main-nav li a:hover
+{
+	border: 1px solid white;
+}
+
+.logo img
+{
+	width: 150px;
+	height: auto;
+	float: left;
+}
+
+body
+{
+	font-family: monospace;
+}
+
+.row
+{
+	max-width: 1200px;
+	margin: auto;
 }
