@@ -67,3 +67,23 @@ table {
 .primary-footer a:hover {
 	color: #648880;
 }
+
+/*
+----------- Navigation ------------
+*/
+.nav {
+  text-align: right;
+}
+.primary-nav {
+  font-size: 14px;
+  font-weight: 400;
+	letter-spacing: .5px;
+}
+.nav li {
+  display: inline-block;
+  margin: 0 10px;
+  vertical-align: top;
+}
+.nav li:last-child {
+  margin-right: 0;
+}
