@@ -259,3 +259,9 @@ header .header-content .header-content-inner p {
  .headerheight{
    height: 500px;
  }
+
+.backgroundpic {
+  background-image: url("dance.jpg");
+  background-repeat: no repeat;
+  background-position: center;
+}
