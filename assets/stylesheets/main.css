@@ -10,6 +10,7 @@ body {
 section {
   padding: 60px 0;
 }
+/*
 header {
   position: relative;
   width: 100%;
@@ -23,6 +24,7 @@ header {
   text-align: center;
   color: black;
 }
+*/
 header .header-content {
   position: relative;
   text-align: center;
