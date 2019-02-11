@@ -10,7 +10,7 @@ body {
 section {
   padding: 60px 0;
 }
-/*
+
 header {
   position: relative;
   width: 100%;
@@ -20,11 +20,11 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('webimage.png');
+  background-image: url('../webimage.png');
   text-align: center;
-  color: black;
+  color: white;
 }
-*/
+
 header .header-content {
   position: relative;
   text-align: center;
