@@ -11,9 +11,7 @@ section {
   padding: 60px 0;
 }
 
-header {
-    width: 100%;
-    height: 250px;
+headerimage {
     background-image:url('webimage.png');
 /*  position: relative;
   width: 100%;
@@ -220,10 +218,6 @@ header .header-content .header-content-inner p {
 .nav li:last-child {
   margin-right: 100px;
  text-decoration:none;
-}
-
-.header-site{
-   background: url(dance.jpg);
 }
 
 /*
