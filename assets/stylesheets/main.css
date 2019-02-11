@@ -192,3 +192,10 @@ header .header-content .header-content-inner p {
   min-width: 960px;
   padding: 66px 0 44px 0;
 }
+
+.logo
+{
+	width: 150px;
+	height: auto;
+	float: left;
+}
