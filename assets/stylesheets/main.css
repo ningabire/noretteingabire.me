@@ -12,7 +12,9 @@ section {
 }
 
 header {
-  position: relative;
+    width: 100%;
+    background-image:url('webimage.png');
+/*  position: relative;
   width: 100%;
   min-height: auto;
   -webkit-background-size: cover;
@@ -23,6 +25,7 @@ header {
   background-image: url('../webimage.png');
   text-align: center;
   color: white;
+  */
 }
 
 header .header-content {
