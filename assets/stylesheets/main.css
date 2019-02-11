@@ -265,3 +265,16 @@ header .header-content .header-content-inner p {
   background-repeat: no repeat;
   background-position: center;
 }
+
+/*
+-----footer -------
+*/
+.primary-footer small {
+  float: left;
+ font-weight: 400;
+}
+
+.primary-footer {
+  padding-bottom: 44px;
+  padding-top: 44px;
+}
