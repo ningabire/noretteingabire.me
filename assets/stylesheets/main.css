@@ -217,3 +217,7 @@ header .header-content .header-content-inner p {
   margin-right: 100px;
  text-decoration:none;
 }
+
+.header-site{
+   background: url(dance.jpg);
+}
