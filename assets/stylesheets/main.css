@@ -78,11 +78,6 @@ header .header-content .header-content-inner p {
 	background-color: #AEC8ED;
 	color: #865D57;
 }
-
-.blog-section{
-  background-color: #254321;
-  color: white;
-}
 .projects-border > div{
 	border:solid 2px #F4F4F4;
 	background-color:#F4F4F4;
@@ -199,5 +194,5 @@ header .header-content .header-content-inner p {
 {
 	width: 150px;
 	height: auto;
-	float: left;
+	float: center;
 }
