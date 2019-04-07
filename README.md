@@ -21,4 +21,9 @@ Mobile display:
 https://imgur.com/UK3vJtu
 
 Airbnb website:
+https://www.airbnb.com/
+
+Citations:
+
+My implementation of the navbar effects was adapted from this tutorial: https://www.youtube.com/watch?v=FEmysQARWFU
 
