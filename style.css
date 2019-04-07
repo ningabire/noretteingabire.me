@@ -1,17 +1,277 @@
-html,
-body {
-  height: 100%;
-  width: 100%;
+* {
+  margin:0;
+  padding:0;
 }
 
-.menu {
-    margin: 0 30px 0 0;
+html, body {
+  margin: 0;
+   padding: 0; 
+  font-family:'Open Sans', sans-serif;
+  font-weight:300;
+  height: 80%;
+  width: 100%;
+   background: url(frontpage.jpg);
+  background-size: cover;
+  -webkit-background-size:cover;
+  -moz-background-size: cover;
+  -o-background-size:cover;
+  background-attachment: fixed;
 }
-.menu{
-    position: relative;
+
+.container {
+  width:80%;
+  margin: 0 auto;
+  min-height: 100%;
+  position: relative;
+}
+
+.signup {
+  text-align: right;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear:both;
+}
+.logo {
+  float:left;
+  padding: 10px 0;
+}
+
+header nav {
+  float: right;
+}
+
+header nav ul {
+  margin: 0;
+  padding:0;
+  list-style:none;
+}
+
+header nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 25px;
+  position: relative;
+}
+
+header nav ul li a {
+  clear: right;
+  color:#000000;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a {
+  color:#1173b4;
+  text-decoration: none;
+}
+
+#connect {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+header nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  width: 100%;
+  background-color: #000000;
+  position: absolute;
+  top:0;
+  width: 0%;
+  transition: all ease-in-out 150ms;
+}
+
+header nav a:hover:before {
+  width:100%;
+}
+
+header nav ul li a.hover {
+  color: #115994 ;
+}
+
+label {
+  margin: 0 40px 0 0;
+  font-size: 26px;
+  line-height: 70px;
+  display: none;
+  width: 26px;
+  float: right;
+}
+
+#toggle {
+  display:none;
+}
+
+
+.menu {
+  margin: 0 30px 0 0;
+}
+
+.menu ul li a {
+  clear: right;
+  text-decoration: none;
+  color: #000000;
+  margin: 0 10px;
+  line-height: 70px;
+}
+
+label {
+  margin: 0 40px 0 0;
+  font-size: 26px;
+  line-height: 70px;
+  display: none;
+  width: 26px;
+  float: right;
+}
+
+ #toggle {
+   display : none;
+ }
+
+ .quote {
+  display: flex;
+  justify-content: center;
+  align-content: flex-end;
+  height:300px;
+  align-items: center;
+  margin: 0 auto;
+  color: #092a46;
+ }
+
+ .cta {
+   display: flex;
+   border: 2px solid #10273b;
+   height:42px;
+   padding: 12px;
+   border-radius: 25px;
+   text-align: center;
+   background:#13c4bb;
+ }
+
+ .cta:hover {
+   background: #e0dbdb;
+ }
+
+.cta-container {
+  display: flex;
+  justify-content: right;
+   align-items: center;
+   align-content: center;
+}
+
+input[type=text], select {
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #1dafc9;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+input[type=join] {
+  width:5%;
+  padding:14px 20px;
+  margin: 8px 0;
+  background-color:#1dafc9;
+  color: #f7f3f3;
+  border:none;
+  border-radius:10px;
+  cursor: pointer;
+}
+
+input[type=join]:hover {
+  background-color:#000000;
+}
+
+footer {
+  width: 100%;
+  background: #000000;;
+  padding: 10px 0px;
+  left:0px;
+  bottom: 0px;
+  position: absolute;
+}
+
+footer nav {
+  float: center;
+}
+
+footer nav ul {
+  margin: 0;
+  padding:0;
+  list-style:none;
+}
+
+footer nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 25px;
+  position: relative;
+  padding-bottom:5px;
+  padding-top: 15px;
+}
+
+footer nav ul>li>a {
+  color:#e6e8e9;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+footer nav a:hover{
+  color: #0f5c9b ;
+}
+
+
+footer nav ul {
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 500px) {
+  label {
+    display:block;
+    cursor: pointer;
+  }
+
+  .menu {
+    text-align: right;
+    width: 30%;
+    display: none;
     z-index: 99;
-    text-align: center;
-    background: #031831;
-    width: 100%;
+  }
+
+  .menu ul li a {
+    display: block;
+    margin: 0;
+  }
+
+  #toggle:checked + .menu {
+    display: block;
+  }
+
+  footer nav ul li {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .signup {
     display: none;
   }
+
+}
+
+@media only screen and (min-width: 500px) {
+
+  .footer {
+    height:50px;
+  }
+  
+}
+
